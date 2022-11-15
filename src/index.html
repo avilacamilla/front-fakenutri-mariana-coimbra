@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap" rel="stylesheet">
-    
+
     <title>Mariana Coimbra - Nutricionista</title>
 </head>
 <body>
@@ -21,13 +21,15 @@
             <div>
                 <img id="logo" src="./images/logo-fakenutri-pink.png" alt="">
             </div>
-
+            
+            <nav id="nav">
                 <ul>
                     <a href="#"><li>Início</li></a>
-                    <a href="#"><li>Serviços</li></a>
+                    <a href="#second-section"><li>Serviços</li></a>
                     <a href="#"><li>Contato</li></a>
                     <a href="#"><li id="calculator-button">Calcule seu IMC</li></a>
                 </ul>
+            </nav>
     </header>
 
     <main>
@@ -36,14 +38,109 @@
                 <h2 id="subtitle-one">
                     <span id="span-one">Envelheça</span><br>
                     <span id="span-two">com</span>
-                    <span id="span-three">Saúde!</span>
-                </h2> 
+                    <span id="span-three">Saúde!</span><br>
+                    <a href="#third-section">↓</a>
+                </h2>
             </aside>
+
             <article>
                 <img src="./images/fake-nutri-capa.png" alt="">
             </article>
         </section>
         
+        <section id="second-section">
+            <article>
+                <img src="./images/fake-nutri-services.png" alt="">
+            </article>
+            
+            <aside id="services">
+                <h3 class="subtitle-services">
+                    Consultas
+                </h3>
+                <hr>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur 
+                  adipisicing elit. Distinctio inventore totam 
+                  temporibus fugit! Velit aspernatur, quos rerum 
+                  similique dolorem ad nesciunt nemo dicta. 
+                  Quibusdam ab ad ex labore dolorum cum iste 
+                  rem neque et consequuntur quaerat ratione illo, 
+                  magnam velit perferendis voluptate corporis 
+                  inventore autem. Sit cum nemo aliquam architecto.
+                  <br><br>
+                  Lorem ipsum dolor sit, amet consectetur 
+                  adipisicing elit. Distinctio inventore totam 
+                  temporibus fugit! Velit aspernatur, quos rerum 
+                  similique dolorem ad nesciunt nemo dicta.
+                  Quibusdam ab ad ex labore dolorum cum iste 
+                  rem neque et consequuntur quaerat ratione illo, 
+                  magnam velit perferendis voluptate corporis 
+                  inventore autem. Sit cum nemo aliquam architecto.  
+                </p>
+                <br>
+
+                <h3 class="subtitle-services">
+                    Programa de Nutrição Esportiva
+                </h3>
+                <hr>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Distinctio inventore totam 
+                    temporibus fugit! Velit aspernatur, quos rerum 
+                    similique dolorem ad nesciunt nemo dicta. 
+                    Quibusdam ab ad ex labore dolorum cum iste 
+                    rem neque et consequuntur quaerat ratione illo, 
+                    magnam velit perferendis voluptate corporis 
+                    inventore autem. Sit cum nemo aliquam architecto.
+                    <br><br> 
+                    Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Distinctio inventore totam 
+                    temporibus fugit! Velit aspernatur, quos rerum 
+                    similique dolorem ad nesciunt nemo dicta. 
+                    Quibusdam ab ad ex labore dolorum cum iste 
+                    rem neque et consequuntur quaerat ratione illo, 
+                    magnam velit perferendis voluptate corporis 
+                    inventore autem. Sit cum nemo aliquam architecto.  
+                  </p>
+            </aside>
+            
+        </section>
+
+        <section id="third-section">
+            <aside id="contacts">
+                <h3 class="subtitle-contact">
+                    Contato
+                </h3>
+                <hr>
+                <p id="adress">
+                  Rua Vasco da Gama, 35 - Sala 1213<br>
+                  Shopping 33, Torre<br>
+                  Vila Sta. Cecília, Volta Redonda - RJ
+                </p>
+                <a href=""><img class="icon-wpp" src="./images/logo-wpp.png" alt=""></a>
+            </aside>
+
+            <article id="arti">
+            
+            <form id="third">
+                <h3 class="subtitle-contact">
+                    Consultas, dúvidas e sugestões
+                </h3>
+                <hr>
+                
+                <div>
+                    <input type="text" placeholder="Nome">
+                    <input type="email" placeholder="E-mail"">
+                </div>
+                <div>
+                    <textarea name="message" id="message" cols="50" rows="10" placeholder="Digite sua mensagem aqui..."></textarea>
+                </div>
+                <div>
+                    <button id="form-button">Enviar</button>
+                </div>
+            </form>
+        </article>
+        </section>
 
 
 
@@ -129,6 +226,6 @@
     <footer>
         <p>Atividade da Comunidade Code | Nutricionista Fake | Desenvolvedora Camilla Avila</p>
     </footer>
-    
+    <script src="./js/main.js"></script>
 </body>
 </html>
