@@ -57,24 +57,49 @@ a:hover {
 
 /* Primrio bloco de conteúdo */
 
-.first-section { 
+#first-section { 
     background-color: #cb6ce6;
     color: #FEFEFE;
     margin-top: 110px;
     display: flex;
-     
-}
-
-article {
-    width: 50%;
+    align-items: center;     
 }
 
 aside {
     width: 50%;
 }
 
-h2 {
-    margin-top: 200px;
+img {
+    width: 100%;
+}
+
+article {
+    width: 50%;
+}
+
+
+
+#subtitle-one {
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 90px;
+    font-weight: 100;
+}
+
+#span-one {
+    font-size: 70px;
+    font-weight: 400;
+}
+
+#span-two {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+#span-three {
+    font-weight: 600;
+    font-size: 95px;
 }
 
 
