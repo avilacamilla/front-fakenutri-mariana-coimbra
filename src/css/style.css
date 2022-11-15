@@ -45,7 +45,7 @@ a:hover {
 #calculator-button {
     border: 2px solid #cb6ce6;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 30px;
     transition: all ease 0.2s;
 }
 
@@ -58,8 +58,8 @@ a:hover {
 /* Primrio bloco de conteúdo */
 
 #first-section { 
-    background-color: #cb6ce6;
-    color: #FEFEFE;
+    background-color: #d6a7e4;
+    color: #f7f7f7;
     margin-top: 110px;
     display: flex;
     align-items: center;     
@@ -102,6 +102,84 @@ article {
     font-size: 95px;
 }
 
+/*Segundo Bloco de conteúdo*/
 
+#second-section { 
+    background-color: #dfdcdc;
+    color: #777777;
+    margin-top: -5px;
+    display: flex;
+    align-items: center;     
+}
 
+#services {
+    padding: 50px;
+}
+
+hr {
+    width: 10rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Terceiro bloco de conteúdo */
+
+#third-section { 
+    background-color: #FEFEFE;
+    color: #5a5a5a;
+    margin-top: -5px;
+    display: flex;
+    align-items: center;     
+}
+
+#contacts {
+    padding: 50px;
+    align-items: center;
+    
+}
+
+#adress {
+    margin-top: 30px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #000;
+}
+
+.icon-wpp {
+    width: 2.95rem;
+    margin-top: 15px;
+}
+
+#third {
+    background-color: #d6a7e4;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+input {
+    width: 15.8rem;
+    height: 2rem;
+    padding: 1rem;
+    margin-right: 0.40rem;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 32.3rem;
+    margin-top: 0.30rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+#form-button {
+    width: 32.5rem;
+    height: 2rem;
+    margin-top: 0.30rem;
+    border-radius: 10px;
+    border: none;
+}
 
