@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navegação */
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #1b7e83;
+    transition: all ease 0.2s;
+}
+
+#logo {
+    width: 70%;
+}
+
+li {
+    display: inline-block;
+    margin-right: 1.25rem;
+}
+
+a {
+    text-decoration: none;
+    color: #FEFEFE;
+    font-weight: 200;
+    transition: all ease 0.2s;    
+}
+
+a:hover {
+    color: #dfdcdc;
+}
+
+#calculator-button {
+    border: 2px solid #cb6ce6;
+    padding: 10px;
+    border-radius: 8px;
+    transition: all ease 0.2s;
+}
+
+#calculator-button:hover {
+    border: 2px solid #cb6ce6;
+    background-color: #cb6ce6;
+    color: #FFF;
+}
