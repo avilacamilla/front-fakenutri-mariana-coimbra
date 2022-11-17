@@ -4,6 +4,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #1b7e83;
 }
@@ -104,7 +108,7 @@ article {
 
 /*Segundo Bloco de conteúdo*/
 
-#second-section { 
+#second-section, #fourth-section { 
     background-color: #dfdcdc;
     color: #777777;
     margin-top: -5px;
