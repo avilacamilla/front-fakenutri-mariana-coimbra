@@ -27,7 +27,7 @@ function bmi () {
             riskRating = 'com obesidade grau III. Agende uma consulta!';
         }
 
-        result.textContent = `${name}, seu IMC é ${valueBMI}. Você está ${riskRating}`;
+        result.textContent = `Oi ${name}, seu IMC é ${valueBMI}. Você está ${riskRating}`;
         
     }else {
         result.textContent = '***Preencha todos os campos.';

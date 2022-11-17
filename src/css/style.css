@@ -6,10 +6,7 @@
 
 html {
     scroll-behavior: smooth;
-}
-
-body {
-    background-color: #1b7e83;
+    background-color: #1b7e83
 }
 
 /* Navegação */
@@ -22,16 +19,18 @@ header {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    background-color: #1b7e83b9;
-    transition: all ease 0.2s;
+    height: 14%;
+    background-color: #1b7e83b6;
 }
 
 #logo {
-    width: 60%;
+    margin-top: 1%;
+    width: 50%;
     cursor: pointer;
 }
 
 li {
+    margin-top: 1%;
     display: inline-block;
     margin-right: 1.25rem;
 }
@@ -65,7 +64,7 @@ a:hover {
 #first-section { 
     background-color: #d6a7e4;
     color: #f7f7f7;
-    margin-top: 110px;
+    margin-top: 99px;
     display: flex;
     align-items: center;     
 }
@@ -109,12 +108,12 @@ article {
 
 /*Segundo Bloco de conteúdo*/
 
-#second-section, #fourth-section { 
+#second-section { 
     background-color: #dfdcdc;
     color: #777777;
     margin-top: -5px;
     display: flex;
-    align-items: center;     
+    align-items: center;    
 }
 
 #services {
@@ -187,9 +186,10 @@ hr {
     margin-bottom: 2rem;
 }
 
-input {
+.input-form {
+    display: inline-block;
     width: 15.8rem;
-    height: 2rem;
+    height: 2.4rem;
     padding: 1rem;
     margin-right: 0.30rem;
     margin-bottom: 5px;
@@ -224,39 +224,52 @@ textarea {
     transform: scale(1.1);
 }
 
+#fourth-section { 
+    background-color: #dfdcdc;
+    color: #777777;
+    margin-top: -5px;
+    display: flex;
+    align-items: center
+}
+
 /*Maps*/
 
-#maps {
-    height: 100%;
+iframe {
+    width: 100%;
 }
 
 /* Seção IMC */
-/* Calculadora */
 
 .container {
-
+    display: flex;
 }
 
-.input-imc, #name {
-    display: flex;
-    align-items: center;
-   
+label {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 9px;
+    
 }
 
-#result{
-    display: flex;
-    margin-top: 20px;
+input {
     align-items: center;
-    width: 700px;
-    color: #5a5a5a;
-    padding: 40px;
-    box-sizing: border-box;
-    user-select: none;
+    width: 10.8rem;
+    height: 2.4rem;
+    padding: 1rem;
+    margin-right: 0.30rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.171);
+    outline: none;  
 }
 
 ::-webkit-input-placeholder {
     color: #77777779;
     font-style: italic;
+}
+
+#button-result {
+    margin-top: 2rem;
 }
 
 button {
@@ -274,6 +287,17 @@ button {
 button:hover {
     background-color: #1b7e83;
     color: #FFF;
+}
+
+#result{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 600px;
+    color: #5a5a5a;
+    padding: 40px;
+    box-sizing: border-box;
+    user-select: none;
 }
 
 
