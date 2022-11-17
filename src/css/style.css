@@ -49,7 +49,7 @@ a:hover {
 #calculator-button {
     border: 2px solid #cb6ce6;
     padding: 10px;
-    border-radius: 30px;
+    border-radius: 3px;
     transition: all ease 0.2s;
 }
 
@@ -131,6 +131,7 @@ hr {
 
 #button-contact a {
     border: 3px solid #1b7e83;
+    border-radius: 3px;
     padding: 12px;
     color: #1b7e83;
     font-weight: 600;
@@ -194,6 +195,7 @@ input {
     border: none;
     border-radius: 10px;
     box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.445);
+    outline: none;
 }
 
 textarea {
@@ -216,8 +218,52 @@ textarea {
 /*Maps*/
 
 #maps {
-    width: 100%;
+    height: 100%;
 }
+
+/* Seção IMC */
+/* Calculadora */
+
+.container {
+
+}
+
+.input-imc, #name {
+    display: flex;
+    align-items: center;
+   
+ }
+
+  
+  #result{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 800px;
+    color: #5a5a5a;
+    padding: 40px;
+    box-sizing: border-box;
+    user-select: none;
+  }
+
+button {
+    border: 3px solid #1b7e83;
+    background-color: transparent;
+    padding: 12px;
+    color: #1b7e83;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+
+button:hover {
+    background-color: #1b7e83;
+    color: #FFF;
+}
+
+
 
 /*Rodapé*/
 
@@ -227,9 +273,12 @@ footer {
 
 #dev-footer {
     padding: 10px;
+    margin-top: -4px;
     font-size: 13px;
     text-align: center;
     color: #FEFEFE;
 
 }
+
+
 
