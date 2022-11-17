@@ -206,6 +206,7 @@ textarea {
     border: none;
     border-radius: 3px;
     box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.445);
+    outline: none;
 }
 
 #third #button-form {
@@ -224,7 +225,7 @@ textarea {
     transform: scale(1.1);
 }
 
-#fourth-section { 
+#fifth-section { 
     background-color: #dfdcdc;
     color: #777777;
     margin-top: -5px;
