@@ -15,6 +15,7 @@ header {
     position: fixed;
     left: 0;
     top: 0;
+    right: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -265,7 +266,7 @@ input {
 }
 
 ::-webkit-input-placeholder {
-    color: #77777779;
+    color: #77777752;
     font-style: italic;
 }
 
@@ -317,6 +318,92 @@ footer {
     color: #FEFEFE;
 
 }
+
+
+  
+
+@media (max-width:1281px) {
+       
+    header {
+        width: 100%;
+        height: 11.2%;
+        
+    }
+
+    #first-section {
+        width: 100%;
+    }
+
+    #second-section {
+        margin-top: -4px;
+    }
+
+    #services {
+        padding: 38px;
+    }
+
+}
+
+@media (max-width:1025px) {
+        header {
+            display: fixed;
+            width: 89.1%;
+            height: 10%;
+            justify-content: space-around;
+        }
+
+        #box-logo {
+            width: 30%;
+        }
+
+        #logo {
+            width: 100%
+        }
+
+        h3 {
+            font-size: 15px;
+        }
+
+        .p-responsive {
+            font-size: 11px;
+        }
+
+        .input-form {
+            width: 12rem;
+        }
+
+        textarea {
+            width: 24rem;
+        }
+
+        #third #button-form {
+            margin-top: 1rem;
+            width: 24rem;
+        }
+
+        input {
+           width: 9rem; 
+        }
+
+
+
+        
+
+}
+
+
+
+
+
+
+@media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+@media (min-width:480px) { /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+
+
+
+
 
 
 
