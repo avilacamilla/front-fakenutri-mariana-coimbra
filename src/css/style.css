@@ -201,6 +201,7 @@ hr {
 }
 
 textarea {
+    max-width: 100%;
     width: 32.3rem;
     margin-top: 0.30rem;
     padding: 1rem;
@@ -211,6 +212,7 @@ textarea {
 }
 
 #third #button-form {
+    max-width: 100%;
     width: 32.5rem;
     height: 2.5rem;
     margin-top: 0.30rem;
@@ -244,6 +246,23 @@ iframe {
 
 .container {
     display: flex;
+}
+
+@media (max-width:1140px) { 
+    .container {
+        flex-direction: column;
+        
+    }
+
+    .container .input {
+        margin-bottom: 8px;
+    }
+
+    .container label {
+        min-width: 70px;
+        display: inline-block;
+    }
+    
 }
 
 label {
@@ -295,7 +314,6 @@ button:hover {
     display: flex;
     margin-top: 20px;
     align-items: center;
-    width: 600px;
     color: #5a5a5a;
     padding: 40px;
     box-sizing: border-box;
@@ -345,9 +363,9 @@ footer {
 }
 
 @media (max-width:1025px) {
+        
+          
         header {
-            display: fixed;
-            width: 89.1%;
             height: 10%;
             justify-content: space-around;
         }
@@ -360,16 +378,48 @@ footer {
             width: 100%
         }
 
+        a {
+            display: inline-block;
+        }
+
+        #subtitle-one {
+            line-height: 50px;
+        }
+
+        #span-one {
+            font-size: 55px;       
+        }
+
+        #span-two {
+            font-size: 50px;
+        }
+
+        #span-three {
+            font-size: 65px;
+        }
+
+        #services {
+            padding: 5px;
+        }
+
         h3 {
-            font-size: 15px;
+            font-size: 14px;
+        }
+
+        #button-contact a {
+            display: none;
         }
 
         .p-responsive {
             font-size: 11px;
         }
 
+        #subtitle-form {
+            font-size: 13px;
+        }
+
         .input-form {
-            width: 12rem;
+            width: 8.1rem;
         }
 
         textarea {
@@ -381,26 +431,31 @@ footer {
             width: 24rem;
         }
 
-        input {
-           width: 9rem; 
+        #fifth-section {
+            margin-top: -10px;
         }
 
+        .img-bmi {
+            margin-top: -50px;
+        }
 
+        label {
+            font-size: 13px;
+        }
+
+        input {
+           width: 8rem;
+           height: 1rem; 
+        }
+
+        #result {
+            padding: 20px;
+            height: 20px;
+        }
 
         
 
 }
-
-
-
-
-
-
-@media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
-@media (min-width:480px) { /* smartphones, Android phones, landscape iPhone */ }
-@media (min-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
-@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
-
 
 
 
