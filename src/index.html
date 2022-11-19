@@ -21,7 +21,7 @@
 
 <body>
     <header>
-            <div>
+            <div id="box-logo">
                 <img id="logo" src="./images/logo-fakenutri-pink.png" alt="">
             </div>
             
@@ -36,7 +36,7 @@
     </header>
 
     <main>
-        <section id="first-section">
+        <section id="first-section" class="section">
             <aside>
                 <h2 id="subtitle-one">
                     <span id="span-one">Envelheça</span><br>
@@ -51,8 +51,8 @@
             </article>
         </section>
         
-        <section id="second-section">
-            <article>
+        <section id="second-section" class="section">
+            <article id="article-second-section">
                 <img src="./images/fake-nutri-services.png" alt="">
             </article>
             
@@ -63,7 +63,7 @@
 
                 <hr>
 
-                <p>
+                <p class="p-responsive">
                   Lorem ipsum dolor sit, amet consectetur 
                   adipisicing elit. Distinctio inventore totam 
                   temporibus fugit! Velit aspernatur, quos rerum 
@@ -85,7 +85,7 @@
                 </h3>
                 <hr>
                 
-                <p>
+                <p class="p-responsive">
                     Lorem ipsum dolor sit, amet consectetur 
                     adipisicing elit. Distinctio inventore totam 
                     temporibus fugit! Velit aspernatur, quos rerum 
@@ -98,11 +98,7 @@
                     Lorem ipsum dolor sit, amet consectetur 
                     adipisicing elit. Distinctio inventore totam 
                     temporibus fugit! Velit aspernatur, quos rerum 
-                    similique dolorem ad nesciunt nemo dicta. 
-                    Quibusdam ab ad ex labore dolorum cum iste 
-                    rem neque et consequuntur quaerat ratione illo, 
-                    magnam velit perferendis voluptate corporis 
-                    inventore autem. Sit cum nemo aliquam architecto.  
+                    similique dolorem ad nesciunt nemo dicta.   
                   </p>
 
                   <br><br>
@@ -113,7 +109,7 @@
             </aside>            
         </section>
 
-        <section id="third-section">
+        <section id="third-section" class="section">
             <aside id="contacts">
                 <h3 class="subtitle-contact">
                     Contato
@@ -155,35 +151,26 @@
             </div>
         </section>
 
-        <section id="fifth-section">
+        <section id="fifth-section" class="section">
             <article>
-                <img src="./images/imc.png" alt="">
+                <img class="img-bmi" src="./images/imc.png" alt="">
             </article>
             
-            <aside id="services">
+            <aside id="services" class="bmi">
                 <h3 class="subtitle-services">
                     Qual a importância do índice de massa corporal?
                 </h3>
 
                 <hr>
 
-                <p>
+                <p class="p-responsive">
                     Criado no século 19 pelo matemático Lambert Quételet, 
                     o Índice de Massa Corporal, conhecido pela sigla IMC, 
                     é um cálculo simples que permite medir se a pessoa está
                     abaixo do peso, no ideal ou acima.
                 </p>
 
-                <br>
-
-                <p>
-                    Pensando nisso, nós preparamos um pequeno sistema de cálculo para que
-                    da comodidade da sua casa, você consiga saber seu Índice de Massa Corporal.                   
-                </p>
-
-                <br>
-
-                <p>
+                <p class="p-responsive">
                     Para descobrir seu IMC, basta preencher as informações como solicitadas abaixo ↴
                 </p>
 
@@ -212,7 +199,7 @@
         </section>       
 
     <footer>
-        <p id="dev-footer">Atividade para Comunidade Code | Nutricionista Fake | Dev Front-end <a href="https://www.linkedin.com/in/avilacamilla/" target="_blank">Camilla Avila</a></p>
+        <p id="dev-footer" class="p-responsive">Atividade para Comunidade Code | Nutricionista Fake | Dev Front-end <a href="https://www.linkedin.com/in/avilacamilla/" target="_blank">Camilla Avila</a></p>
     </footer>
 
     <script src='./js/main.js'></script>
